@@ -20,15 +20,15 @@
         "email": "chipka01@email.franklin.edu"
     },
     "dependencies": {
-        "needle": ">=0.9.2",
-        "libxmljs": "^0.19.5",
-        "css2xpath": "0.0.1"
+        "css2xpath": "0.0.1",
+        "libxmljs": "^0.19.7",
+        "needle": "^2.5.0"
     },
     "devDependencies": {
         "nodeunit": "0.9.0"
     },
     "scripts": {
-        "test": "node ./node_modules/.bin/nodeunit test"
+        "test": "nodeunit test"
     },
     "license": "MIT",
     "main": "index",
